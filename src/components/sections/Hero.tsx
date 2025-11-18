@@ -11,7 +11,7 @@ import {
 
 export default function Hero() {
   return (
-    <Box bg="bg.body" color="text.body" pt={{ base: "8", md: "20" }}>
+    <Box id="hero" bg="bg.body" color="text.body" pt={{ base: "8", md: "20" }}>
       <Container maxW="container.md" py={{ base: "12", md: "24" }}>
         <HStack justify="center" gap={12}>
           <Image 

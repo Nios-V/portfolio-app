@@ -30,9 +30,9 @@ export default function Navbar() {
         >
             <Container maxW="6xl" py={4}>
                 <Flex align="center" justify="space-between">
-                    <Text fontWeight="700" fontSize="xl">
+                    <Link fontWeight="700" fontSize="xl" href='#hero' _hover={{ textDecoration: "none" }} color="inherit">
                         Nicolás Cáceres
-                    </Text>
+                    </Link>
                     <HStack gap={8} display={{ base: "none", md: "flex" }}>
                         <Link fontWeight="500" color="gray.600" href="#about">About</Link>
                         <Link fontWeight="500" color="gray.600" href="#experience">Experiencia</Link>
