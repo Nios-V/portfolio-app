@@ -1,21 +1,22 @@
-import Hero from './components/sections/Hero.js';
-import About from './components/sections/About.js';
-import Skills from './components/sections/Skills.js';
-import Exprience from './components/sections/Exprience.js';
-import Projects from './components/sections/Projects.js';
-import Contact from './components/sections/Contact.js';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Skills from './components/sections/Skills';
+import Experience from './components/sections/Experience';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
+import Layout from './components/layout/Layout';
 
 function App() {
 
   return (
-    <>
+    <Layout>
       <Hero />
       <About />
       <Skills />
-      <Exprience />
+      <Experience />
       <Projects />
       <Contact />
-    </>
+    </Layout>
   )
 }
 
