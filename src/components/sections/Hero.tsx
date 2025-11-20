@@ -35,7 +35,7 @@ export default function Hero() {
             </Text>
 
             <HStack gap={4} mt={4}>
-              <Button size="lg">Ver proyectos</Button>
+              <Button as="a" size="lg" href="#projects">Ver proyectos</Button>
               <Button size="lg" variant="outline">
                 Descargar CV
               </Button>
