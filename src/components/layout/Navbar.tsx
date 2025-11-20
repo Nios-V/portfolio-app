@@ -36,9 +36,9 @@ export default function Navbar() {
                     <HStack gap={8} display={{ base: "none", md: "flex" }}>
                         <Link fontWeight="500" color="gray.600" href="#about">About</Link>
                         <Link fontWeight="500" color="gray.600" href="#experience">Experiencia</Link>
-                        <Link fontWeight="500" color="gray.600" href="#about">Habilidades</Link>
-                        <Link fontWeight="500" color="gray.600" href="#about">Proyectos</Link>
-                        <Link fontWeight="500" color="gray.600" href="#about">Contacto</Link>
+                        <Link fontWeight="500" color="gray.600" href="#skills">Habilidades</Link>
+                        <Link fontWeight="500" color="gray.600" href="#projects">Proyectos</Link>
+                        <Link fontWeight="500" color="gray.600" href="#contact">Contacto</Link>
                     </HStack>
                 </Flex>
             </Container>
