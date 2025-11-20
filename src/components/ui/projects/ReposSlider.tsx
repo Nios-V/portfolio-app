@@ -1,22 +1,21 @@
 import type { Repo } from "@/types/repo";
-import { Box, Link, Text } from "@chakra-ui/react";
+import { Box, Link, Text, Tag } from "@chakra-ui/react";
 import { useEffect, useRef, useState } from "react";
 
 interface Props {
     repos: Repo[];
 }
 
-export default function ReposSlider({ repos }: Props) {
-    const containerRef = useRef<HTMLDivElement>(null);
+export default function
+    ReposSlider({ repos }: Props) {
     const contentRef = useRef<HTMLDivElement>(null);
     const [contentWidth, setContentWidth] = useState(0);
 
-    // Duplicamos el arreglo para lograr el efecto infinito
     const duplicated = [...repos, ...repos];
 
     useEffect(() => {
         if (contentRef.current) {
-            setContentWidth(contentRef.current.scrollWidth / 2); // ancho real de la primera mitad
+            setContentWidth(contentRef.current.scrollWidth / 2);
         }
     }, [repos]);
 
@@ -56,6 +55,7 @@ export default function ReposSlider({ repos }: Props) {
                         boxShadow="sm"
                         _hover={{ boxShadow: "md", transform: "translateY(-2px)" }}
                         transition="0.2s ease"
+                        overflow="hidden"
                     >
                         <Link
                             href={repo.html_url}
@@ -69,18 +69,25 @@ export default function ReposSlider({ repos }: Props) {
                             <Text fontWeight="semibold" color="gray.800" mb={2}>
                                 {repo.name.charAt(0).toUpperCase() + repo.name.slice(1)}
                             </Text>
-                            <Text fontSize="sm" color="gray.600">
+                            <Text fontSize="sm" color="gray.600" lineClamp={2} textAlign="center">
                                 {repo.description || "No description available"}
                             </Text>
-                            <Text mt="auto" fontSize="xs" color="brand.700" alignSelf="flex-end">
-                                {repo.language}
-                            </Text>
+                            <Tag.Root
+                                size="sm"
+                                variant="outline"
+                                colorPalette="green"
+                                rounded="full"
+                                mt="auto"
+                                alignSelf="flex-end"
+                                px={3}
+                            >
+                                <Tag.Label fontWeight="medium">{repo.language}</Tag.Label>
+                            </Tag.Root>
                         </Link>
                     </Box>
                 ))}
             </Box>
 
-            {/* Animación generada dinámicamente */}
             <Box as="style">
                 {`
         @keyframes slide {
