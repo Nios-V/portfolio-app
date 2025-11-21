@@ -7,7 +7,7 @@ export const projects: Project[] = [
         profile_id: "1",
         name: "Portfolio Website",
         short_description: "A modern portfolio website built with React and TypeScript",
-        complete_description: "A fully responsive portfolio website showcasing my projects and skills. Built with React, TypeScript, and Tailwind CSS.",
+        complete_description: "A fully responsive portfolio website showcasing my projects and skills. Built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark mode, and contact form integration. Deployed on Vercel for optimal performance.",
         image_url: "",
         repository_url: "https://github.com/username/portfolio",
         project_skills: [
@@ -46,7 +46,7 @@ export const projects: Project[] = [
         profile_id: "1",
         name: "OTT Platform",
         short_description: "Full-stack OTT platform with subscription management and video streaming capabilities",
-        complete_description: "A complete OTT platform with subscription management and video streaming capabilities.",
+        complete_description: "A complete OTT platform with subscription management and video streaming capabilities built using MERN stack and AWS services for scalable performance. Includes user authentication, payment integration, and content management features.   ",
         image_url: "https://images2-mega.cdn.mdstrm.com/mega/2023/02/07/142374_1_63e28e7fe3652.jpg",
         repository_url: "https://github.com/username/ecommerce",
         project_skills: [
