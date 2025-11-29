@@ -34,11 +34,11 @@ export default function Navbar() {
                         Nicolás Cáceres
                     </Link>
                     <HStack gap={8} display={{ base: "none", md: "flex" }}>
-                        <Link fontWeight="500" color="gray.600" href="#about">Sobre mí</Link>
-                        <Link fontWeight="500" color="gray.600" href="#experience">Experiencia</Link>
-                        <Link fontWeight="500" color="gray.600" href="#skills">Habilidades</Link>
-                        <Link fontWeight="500" color="gray.600" href="#projects">Proyectos</Link>
-                        <Link fontWeight="500" color="gray.600" href="#contact">Contacto</Link>
+                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#about">Sobre mí</Link>
+                        <Link fontWeight="500" color="gray.600"  _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#experience">Experiencia</Link>
+                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#skills">Habilidades</Link>
+                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#projects">Proyectos</Link>
+                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#contact">Contacto</Link>
                     </HStack>
                 </Flex>
             </Container>
