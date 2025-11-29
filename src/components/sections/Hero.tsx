@@ -30,8 +30,8 @@ export default function Hero() {
               Hola, soy <Text as="span" color="brand.500">Nicolás</Text>
             </Heading>
 
-            <Text fontSize="xl" opacity={0.8} maxW="700px">
-              Full-Stack Developer especializado en construir aplicaciones modernas y escalables con arquitecturas limpias.
+            <Text fontSize="xl" opacity={0.8} maxW="600px">
+              Full-Stack Developer especializado en construir aplicaciones modernas y escalables.
             </Text>
 
             <HStack gap={4} mt={4}>

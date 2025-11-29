@@ -34,7 +34,7 @@ export default function Navbar() {
                         Nicolás Cáceres
                     </Link>
                     <HStack gap={8} display={{ base: "none", md: "flex" }}>
-                        <Link fontWeight="500" color="gray.600" href="#about">About</Link>
+                        <Link fontWeight="500" color="gray.600" href="#about">Sobre mí</Link>
                         <Link fontWeight="500" color="gray.600" href="#experience">Experiencia</Link>
                         <Link fontWeight="500" color="gray.600" href="#skills">Habilidades</Link>
                         <Link fontWeight="500" color="gray.600" href="#projects">Proyectos</Link>
