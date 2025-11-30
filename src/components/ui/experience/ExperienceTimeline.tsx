@@ -1,5 +1,5 @@
 import type { Experience } from '@/types/experience';
-import { Timeline, Text, Box } from '@chakra-ui/react';
+import { Timeline, Text, Box, useBreakpointValue } from '@chakra-ui/react';
 import { LuBriefcase, LuGraduationCap, LuHeart } from 'react-icons/lu';
 import moment from 'moment';
 
@@ -19,7 +19,9 @@ export default function ExperienceTimeline({ experiences }: Props) {
                 <Timeline.Item key={exp.id}>
                     <Timeline.Content width="auto">
                         <Timeline.Title whiteSpace="nowrap" fontSize="sm" fontWeight="500" >
-                            {moment(exp.start_date).format("MMM YYYY")} - {exp.end_date ? moment(exp.end_date).format("MMM YYYY") : 'Presente'}
+                            {moment(exp.start_date).format("MMM YYYY")} 
+                            {useBreakpointValue({ base: <><br /></>, md: ' - ' })} 
+                            {exp.end_date ? moment(exp.end_date).format("MMM YYYY") : 'Presente'}
                         </Timeline.Title>
                     </Timeline.Content>
                     <Timeline.Connector>
@@ -37,7 +39,7 @@ export default function ExperienceTimeline({ experiences }: Props) {
 
                     <Timeline.Content>
                         <Timeline.Title fontWeight="600" fontSize="lg" color="fg">
-                            {exp.position ? `${exp.position} — ` : ""}
+                            {exp.position ? `${exp.position} - ` : ""}
                             {exp.company_name}
                         </Timeline.Title>
 
