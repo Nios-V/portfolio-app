@@ -1,12 +1,12 @@
 import { Box, Container, Flex, HStack, Link, Text } from '@chakra-ui/react'
 import { useEffect, useState } from 'react';
-import { useColorModeValue } from '../ui/color-mode';
+import { useColorModeValue, ColorModeButton } from '../ui/color-mode';
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
 
     const bg = useColorModeValue("#ffffff99", "#17171799");
-    const bgSolid = useColorModeValue("white", "gray.800");
+    const bgSolid = useColorModeValue("white", "bg.muted");
 
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -34,11 +34,12 @@ export default function Navbar() {
                         Nicolás Cáceres
                     </Link>
                     <HStack gap={8} display={{ base: "none", md: "flex" }}>
-                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#about">Sobre mí</Link>
-                        <Link fontWeight="500" color="gray.600"  _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#experience">Experiencia</Link>
-                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#skills">Habilidades</Link>
-                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#projects">Proyectos</Link>
-                        <Link fontWeight="500" color="gray.600" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease" }} href="#contact">Contacto</Link>
+                        <Link fontWeight="500" color="fg.muted" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease", color:"fg" }} href="#about">Sobre mí</Link>
+                        <Link fontWeight="500" color="fg.muted"  _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease", color:"fg" }} href="#experience">Experiencia</Link>
+                        <Link fontWeight="500" color="fg.muted" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease", color:"fg" }} href="#skills">Habilidades</Link>
+                        <Link fontWeight="500" color="fg.muted" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease", color:"fg" }} href="#projects">Proyectos</Link>
+                        <Link fontWeight="500" color="fg.muted" _hover={{ textDecoration: "none", borderBottom: "2px solid", borderBottomColor: "brand.600", transition: "all 0.1s ease", color:"fg" }} href="#contact">Contacto</Link>
+                        <ColorModeButton />
                     </HStack>
                 </Flex>
             </Container>

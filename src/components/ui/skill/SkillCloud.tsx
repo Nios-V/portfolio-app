@@ -21,7 +21,7 @@ export default function SkillCloud({ skills }: Props) {
 
     return (
         <Box maxW="900px" mx="auto" >
-            <Text fontSize="sm" color="gray.400" textAlign="center" mb={4} >
+            <Text fontSize="sm" color="fg.subtle" textAlign="center" mb={4} >
                 Pasa el cursor sobre cada skill para ver mi nivel de experiencia
             </Text>
             <Wrap justify="center">
@@ -32,8 +32,8 @@ export default function SkillCloud({ skills }: Props) {
                                 <Tag.Root
                                     key={skill.id}
                                     size="xl"
-                                    bg={skill.is_core ? "gray.300" : ""}
-                                    color={skill.is_core ? "black" : "gray.800"}
+                                    bg={skill.is_core ? "bg.emphasized" : "bg.panel"}
+                                    color={skill.is_core ? "text.body" : "text.muted"}
                                     variant={skill.is_core ? "solid" : "outline"}
                                     rounded="full"
                                     boxShadow="sm"

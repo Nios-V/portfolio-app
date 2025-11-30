@@ -21,7 +21,7 @@ export default function About() {
               <Heading
                 size={{ base: "2xl", md: "3xl" }}
                 fontWeight="700"
-                color="gray.900"
+                color="fg"
                 letterSpacing="-0.02em"
               >
                 Sobre mí
@@ -39,14 +39,14 @@ export default function About() {
               gap={6}
               pl={4}
               borderLeft="4px solid"
-              borderColor="gray.200"
+              borderColor="border"
             >
 
-              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600" lineHeight="1.7">
+              <Text fontSize={{ base: "md", md: "lg" }} color="fg" lineHeight="1.7">
                 Ingeniero en Informática con experiencia en desarrollo Full-Stack, orientado a la creación de soluciones de software prácticas, escalables y eficientes. Me apasiona el aprendizaje continuo y la mejora constante, lo que me impulsa a mantenerme actualizado en nuevas tecnologías y buenas prácticas de desarrollo.
               </Text>
 
-              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600" lineHeight="1.7">
+              <Text fontSize={{ base: "md", md: "lg" }} color="fg" lineHeight="1.7">
                 Busco contribuir en proyectos tecnológicos que representen un desafío, donde pueda aportar valor mediante la optimización de procesos, la calidad del código y la entrega de productos centrados en el usuario.
               </Text>
             </Stack>

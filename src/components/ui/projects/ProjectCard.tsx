@@ -18,13 +18,12 @@ export default function ProjectCard({ project }: Props) {
                 overflow="hidden"
                 rounded="xl"
                 shadow="md"
-                bg="white"
+                bg="bg.panel"
                 border="1px solid"
-                borderColor="gray.100"
+                borderColor="border.subtle"
                 transition="0.25s ease"
                 _hover={{ transform: "translateY(-6px)", shadow: "xl" }}
             >
-                {/* Imagen */}
                 <Box h="180px" overflow="hidden">
                     <Image
                         src={
@@ -38,21 +37,19 @@ export default function ProjectCard({ project }: Props) {
                     />
                 </Box>
 
-                {/* Contenido flexible */}
                 <Box display="flex" flexDirection="column" p={4} flex="1">
-                    <Heading size="lg" color="gray.800">
+                    <Heading size="lg" color="fg">
                         {project.name}
                     </Heading>
 
-                    <Text fontSize="sm" color="gray.600" mt={2}>
+                    <Text fontSize="sm" color="fg.muted" mt={2}>
                         {project.short_description || "No description available"}
                     </Text>
 
-                    {/* Tags pegados abajo */}
                     {project.project_skills && project.project_skills.length > 0 && (
                         <HStack wrap="wrap" gap={2} mt="auto" pt={8}>
                             {project.project_skills.map((skill) => (
-                                <Tag.Root key={skill.id} size="sm" variant="subtle" colorScheme="blue">
+                                <Tag.Root key={skill.id} size="sm" bg="bg.info" color="fg.info" borderColor="border.info" border="1px solid">
                                     <Tag.Label>{skill.name}</Tag.Label>
                                 </Tag.Root>
                             ))}

@@ -29,7 +29,7 @@ export default function Hero() {
 
 
   return (
-    <Box id="hero" bg="bg.body" color="text.body" pt={{ base: "8", md: "20" }}>
+    <Box id="hero" bg="bg.body" color="fg" pt={{ base: "8", md: "20" }}>
       <Container maxW="container.xl" py={{ base: "12", md: "24" }}>
         <Stack
           direction={{ base: "column", md: "row" }}

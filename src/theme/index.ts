@@ -34,7 +34,6 @@ const tokens = defineTokens({
 
 const semanticTokens = defineSemanticTokens({
   colors: {
-    // Puedes sobrescribir body bg/text por modo si quieres
     "bg.body": {
       value: { base: "gray.50", _dark: "gray.800" },
     },
@@ -73,7 +72,6 @@ const ButtonRecipe = defineRecipe({
   },
 });
 
-// BADGE
 const BadgeRecipe = defineRecipe({
   base: {
     rounded: "md",
@@ -101,7 +99,7 @@ const theme = createSystem(defaultConfig, {
       Badge: BadgeRecipe,
     },
   },
-
+  cssVarsPrefix: "ck",
 });
 
 export default theme;

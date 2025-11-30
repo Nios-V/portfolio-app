@@ -25,8 +25,8 @@ export default function ExperienceTimeline({ experiences }: Props) {
                     <Timeline.Connector>
                         <Timeline.Separator />
                         <Timeline.Indicator
-                            bg="brand.900"
-                            color="white"
+                            bg="brand.800"
+                            color="fg"
                         >
                             {exp.type === 'Laboral' && <LuBriefcase size={18} />}
                             {exp.type === 'Académica' && <LuGraduationCap size={18} />}
@@ -36,18 +36,18 @@ export default function ExperienceTimeline({ experiences }: Props) {
                     </Timeline.Connector>
 
                     <Timeline.Content>
-                        <Timeline.Title fontWeight="600" fontSize="lg">
+                        <Timeline.Title fontWeight="600" fontSize="lg" color="fg">
                             {exp.position ? `${exp.position} — ` : ""}
                             {exp.company_name}
                         </Timeline.Title>
 
-                        <Timeline.Description textStyle="sm" color="gray.600" >
+                        <Timeline.Description textStyle="sm" color="fg.muted" >
                             {exp.goals && exp.goals.length && (
                                 <Box mt={2}>
                                     <ul style={{ paddingLeft: "20px" }}>
                                         {exp.goals.map((goal) => (
                                             <li key={goal.id} style={{ marginTop: "6px" }}>
-                                                <Text textStyle="sm" color="gray.700">
+                                                <Text textStyle="sm">
                                                     {goal.description || "Descripción no disponible"}
                                                 </Text>
                                             </li>

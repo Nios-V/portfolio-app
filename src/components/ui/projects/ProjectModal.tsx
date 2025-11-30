@@ -27,7 +27,7 @@ export default function ProjectDialog({ project, isOpen, onClose }: Props) {
                     maxW="lg"
                     p={6}
                     rounded="xl"
-                    bg="white"
+                    bg="bg.panel"
                     shadow="lg"
                 >
                     <Dialog.CloseTrigger> 
@@ -51,7 +51,7 @@ export default function ProjectDialog({ project, isOpen, onClose }: Props) {
                         {project.name}
                     </Heading>
 
-                    <Text color="gray.600" fontSize="md" mb={4}>
+                    <Text color="fg.muted" fontSize="md" mb={4}>
                         {project.complete_description ||
                             project.short_description ||
                             "No description available"}
@@ -63,8 +63,10 @@ export default function ProjectDialog({ project, isOpen, onClose }: Props) {
                                 <Tag.Root
                                     key={skill.id}
                                     size="sm"
-                                    variant="subtle"
-                                    colorPalette="blue"
+                                    bg="bg.info"
+                                    color="fg.info"
+                                    borderColor="border.info"
+                                    border="1px solid"
                                 >
                                     <Tag.Label>{skill.name}</Tag.Label>
                                 </Tag.Root>

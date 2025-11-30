@@ -26,7 +26,7 @@ export default function
                     "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
             }}
         >
-            <Text color="gray.400" textAlign="center" mb={6} fontSize="sm">
+            <Text color="fg.subtle" textAlign="center" mb={6} fontSize="sm">
                 Además de eso me enfoco en el aprendizaje continuo, aplicando nuevas tecnologías en proyectos personales
             </Text>
             <Box
@@ -50,8 +50,8 @@ export default function
                         py={3}
                         rounded="lg"
                         border="1px solid"
-                        borderColor="gray.200"
-                        bg="white"
+                        borderColor="border.subtle"
+                        bg="bg.muted"
                         boxShadow="sm"
                         _hover={{ boxShadow: "md", transform: "translateY(-2px)" }}
                         transition="0.2s ease"
@@ -66,16 +66,18 @@ export default function
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Text fontWeight="semibold" color="gray.800" mb={2}>
+                            <Text fontWeight="semibold" color="fg" mb={2}>
                                 {repo.name.charAt(0).toUpperCase() + repo.name.slice(1)}
                             </Text>
-                            <Text fontSize="sm" color="gray.600" lineClamp={2} textAlign="center">
+                            <Text fontSize="sm" color="fg.muted" lineClamp={2} textAlign="center">
                                 {repo.description || "No description available"}
                             </Text>
                             <Tag.Root
                                 size="sm"
-                                variant="outline"
-                                colorPalette="green"
+                                bg="bg.success"
+                                color="fg.success"
+                                borderColor="border.success"
+                                border="1px solid"
                                 rounded="full"
                                 mt="auto"
                                 alignSelf="flex-end"

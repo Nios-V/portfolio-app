@@ -9,16 +9,16 @@ export default function Skills() {
         <Heading
           size={{ base: "2xl", md: "3xl" }}
           mb={3}
-          color="gray.900"
+          color="fg"
         >
           Habilidades
         </Heading>
 
-        <Stack gap={2} color="gray.600">
-          <Text fontSize="lg" color="gray.700">
+        <Stack gap={2}>
+          <Text fontSize="lg" color="fg.muted">
             Estas son algunas de las tecnologías que utilizo en mis proyectos.
           </Text>
-          <Text>
+          <Text color="fg.muted">
             Incluyen las herramientas que domino en profundidad y otras que sigo perfeccionando.
           </Text>
         </Stack>

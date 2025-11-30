@@ -26,11 +26,11 @@ export default function Projects() {
 
   return (
     <Box maxW="8xl" px={{ base: 5, md: 20 }} mx="auto" id="projects" py={10}>
-      <Heading size={{ base: "2xl", md: "3xl" }} mb={3}>
+      <Heading size={{ base: "2xl", md: "3xl" }} mb={3} color="fg" >
         Proyectos
       </Heading>
 
-      <Text fontSize="lg" color="gray.600" mb={10}>
+      <Text fontSize="lg" color="fg.muted" mb={10}>
         Una selección de mis proyectos más destacados, donde exploro diferentes tecnologías y soluciono problemas reales mediante código
       </Text>
 
