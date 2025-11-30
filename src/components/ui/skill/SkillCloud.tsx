@@ -51,12 +51,10 @@ export default function SkillCloud({ skills }: Props) {
                                         <Avatar.Root
                                             size="full"
                                             alignItems="center"
-                                            _hover={{ "& img": { filter: "grayscale(0%)" } }}
                                             justifyContent="center"
                                         >
                                             <Avatar.Image
                                                 src={skill.icon_url}
-                                                filter="grayscale(100%)"
                                                 objectFit="contain"
                                                 transition="filter 0.2s ease"
                                                 bg="white"
