@@ -5,16 +5,15 @@ export const projects: Project[] = [
     {
         id: "1",
         profile_id: "1",
-        name: "Portfolio Website",
-        short_description: "A modern portfolio website built with React and TypeScript",
-        complete_description: "A fully responsive portfolio website showcasing my projects and skills. Built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark mode, and contact form integration. Deployed on Vercel for optimal performance.",
+        name: "Intranet HBLT",
+        short_description: "Aplicación interna para la gestión de recursos y comunicación en el Hospital Barros Luco Trudeau.",
+        complete_description: "Trabajé en el levantamiento de requerimientos y desarrollo de una aplicación interna para el Hospital Barros Luco Trudeau enfocada en la gestión eficiente de recursos y la optimización de la comunicación interna entre áreas. Mi trabajo incluyó la implementación de funcionalidades clave para mejorar la coordinación del personal y agilizar procesos administrativos, contribuyendo directamente a agilizar la operación diaria dentro del centro médico.",
         image_url: "",
-        repository_url: "https://github.com/username/portfolio",
         project_skills: [
             {
-                id: 'b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e',
-                name: 'TypeScript',
-                icon_url: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/5/typescript-icon-round-to2r7ctaodkd8o2drz0wsr.png/typescript-icon-round-1v1u40zhwzqebjcth7f50p.png?_a=DATAg1AAZAA0',
+                id: 'a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d',
+                name: 'JavaScript',
+                icon_url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
                 experience_level: 'Avanzado',
                 is_core: true
             },
@@ -44,16 +43,16 @@ export const projects: Project[] = [
     {
         id: "2",
         profile_id: "1",
-        name: "OTT Platform",
-        short_description: "Full-stack OTT platform with subscription management and video streaming capabilities",
-        complete_description: "A complete OTT platform with subscription management and video streaming capabilities built using MERN stack and AWS services for scalable performance. Includes user authentication, payment integration, and content management features.   ",
+        name: "Mega GO",
+        short_description: "Plataforma OTT con gestión de suscripciones y capacidades de streaming de video",
+        complete_description: "En la plataforma OTT de Mega, soy responsable del desarrollo y mantenimiento de la API y de la aplicación encargada de gestionar las suscripciones y los pagos. Mi rol abarca la implementación de funcionalidades clave, la optimización del rendimiento, la integración con pasarelas de pago y la garantía de un flujo seguro y confiable para los usuarios durante todo el proceso de suscripción.",
         image_url: "https://images2-mega.cdn.mdstrm.com/mega/2023/02/07/142374_1_63e28e7fe3652.jpg",
         repository_url: "https://github.com/username/ecommerce",
         project_skills: [
             {
-                id: 'b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e',
-                name: 'TypeScript',
-                icon_url: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/5/typescript-icon-round-to2r7ctaodkd8o2drz0wsr.png/typescript-icon-round-1v1u40zhwzqebjcth7f50p.png?_a=DATAg1AAZAA0',
+                id: 'a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d',
+                name: 'JavaScript',
+                icon_url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
                 experience_level: 'Avanzado',
                 is_core: true
             },

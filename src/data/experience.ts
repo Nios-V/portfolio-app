@@ -14,13 +14,13 @@ const experiences: Experience[] = [
             {
                 "id": "a1f5d6e2-4c3b-4f7e-9f3e-2c8b6e5f9c1d",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Adquirir conocimientos fundamentales en desarrollo de software, bases de datos y arquitectura de sistemas",
+                "description": "Adquirí conocimientos fundamentales en desarrollo de software, bases de datos y arquitectura de sistemas",
                 "order": 1
             },
             {
                 "id": "a1f5d6e2-4c3b-4f7e-9f3e-2c8b6e5f9c1e",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Desarrollar habilidades de análisis y resolución de problemas mediante proyectos prácticos",
+                "description": "Desarrollé habilidades de análisis y resolución de problemas mediante proyectos prácticos",
                 "order": 2
             }
         ]
@@ -38,13 +38,13 @@ const experiences: Experience[] = [
             {
                 "id": "36c8a6fc-2269-4d6f-840a-cc7e6ac98d01",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Implementar soluciones tecnológicas para optimizar procesos administrativos del área de salud",
+                "description": "Colaboré en el levantamiento de requerimientos para el desarrollo de sistemas internos, interactuando con diferentes áreas del hospital",
                 "order": 1
             },
             {
                 "id": "36c8a6fc-2269-4d6f-840a-cc7e6ac98d02",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Colaborar en el mantenimiento y mejora de sistemas de gestión hospitalaria",
+                "description": "Implementé soluciones tecnológicas para optimizar procesos administrativos y comunicación interna del área de salud",
                 "order": 2
             }
         ]
@@ -61,19 +61,19 @@ const experiences: Experience[] = [
             {
                 "id": "d6d37a04-30ce-4788-95f5-e9b4899af181",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Desarrollar y mantener aplicaciones web escalables utilizando tecnologías modernas",
+                "description": "Desarrollé y mantuve funcionalidades críticas del sistema de pagos, asegurando estabilidad, rendimiento y escalabilidad",
                 "order": 1
             },
             {
                 "id": "d6d37a04-30ce-4788-95f5-e9b4899af182",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Participar en la arquitectura y diseño de soluciones para plataformas digitales de medios",
+                "description": "Implementé mejoras en la arquitectura del servicio de suscripciones para optimizar flujos de cobro y reducir errores en producción",
                 "order": 2
             },
             {
                 "id": "d6d37a04-30ce-4788-95f5-e9b4899af183",
                 "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
-                "description": "Colaborar en el proceso de desarrollo ágil y mejora continua del código",
+                "description": "Gestioné y resolví tickets técnicos relacionados a suscripciones y pagos, garantizando soporte oportuno y mejoras continuas en la experiencia del usuario",
                 "order": 3
             }
         ]
