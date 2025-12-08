@@ -19,6 +19,7 @@ export default function Contact() {
       py={10}
       bg="bg.body"
       position="relative"
+      scrollMarginTop={100}
     >
 
       <Container maxW="lg" textAlign="center" position="relative" zIndex={1}>

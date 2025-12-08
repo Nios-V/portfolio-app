@@ -9,6 +9,7 @@ export default function About() {
       px={{ base: 5, md: 20 }}
       maxW="8xl"
       mx="auto"
+      scrollMarginTop={100}
     >
       <Container>
         <Flex

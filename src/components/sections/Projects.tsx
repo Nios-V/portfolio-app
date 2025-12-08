@@ -25,7 +25,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <Box maxW="8xl" px={{ base: 5, md: 20 }} mx="auto" id="projects" py={10}>
+    <Box maxW="8xl" px={{ base: 5, md: 20 }} mx="auto" id="projects" py={10} scrollMarginTop={100}>
       <Heading size={{ base: "2xl", md: "3xl" }} mb={3} color="fg" >
         Proyectos
       </Heading>

@@ -4,7 +4,7 @@ import skills from '../../data/skill';
 
 export default function Skills() {
   return (
-    <Box id='skills' py={10} px={{ base: 5, md: 20 }} maxW="8xl" mx="auto" >
+    <Box id='skills' py={10} px={{ base: 5, md: 20 }} maxW="8xl" mx="auto" scrollMarginTop={100}>
       <Box mb={10}>
         <Heading
           size={{ base: "2xl", md: "3xl" }}
