@@ -20,7 +20,7 @@ interface Props {
 
 export default function ProjectDialog({ project, isOpen, onClose }: Props) {
     return (
-        <Dialog.Root open={isOpen} onOpenChange={onClose} size={{ mdDown: "cover", md: "lg" }} placement="center">
+        <Dialog.Root open={isOpen} onOpenChange={onClose} size={{ mdDown: "xl", md: "lg" }} placement="center">
             <Dialog.Backdrop />
             <Dialog.Positioner>
                 <Dialog.Content
