@@ -28,7 +28,7 @@ export default function ProjectCard({ project }: Props) {
                     <Image
                         src={
                             project.image_url ||
-                            "https://static.vecteezy.com/system/resources/previews/054/064/649/non_2x/cartoon-octopus-programmer-at-dual-monitors-with-glasses-and-beanie-free-vector.jpg"
+                            "https://img.freepik.com/premium-vector/programing-concept-program-code-white-isolated-background_197170-769.jpg"
                         }
                         alt={project.name}
                         w="100%"

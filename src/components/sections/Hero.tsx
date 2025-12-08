@@ -72,7 +72,12 @@ export default function Hero() {
               <Button as="a" size={{ base: "md", md: "lg" }} href="#projects">
                 Ver proyectos
               </Button>
-              <Button size={{ base: "md", md: "lg" }} variant="outline">
+              <Button
+                as="a"
+                size={{ base: "md", md: "lg" }}
+                variant="outline"
+                href="https://drive.google.com/uc?export=download&id=12AFhPAB8sAsiJ1fICIxmxJ7kSoFc_ovX"
+              >
                 Descargar CV
               </Button>
             </HStack>
