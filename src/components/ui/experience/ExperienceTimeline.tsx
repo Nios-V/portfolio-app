@@ -15,7 +15,7 @@ export default function ExperienceTimeline({ experiences }: Props) {
             gap={8}
             size="xl"
         >
-            {experiences.map((exp) => (
+            {experiences.sort((a, b) => new Date(b.start_date).getTime() - new Date(a.start_date).getTime()).map((exp) => (
                 <Timeline.Item key={exp.id}>
                     <Timeline.Content width="auto">
                         <Timeline.Title whiteSpace="nowrap" fontSize="sm" fontWeight="500" >
