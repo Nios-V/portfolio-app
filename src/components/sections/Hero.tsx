@@ -76,7 +76,7 @@ export default function Hero() {
                 as="a"
                 size={{ base: "md", md: "lg" }}
                 variant="outline"
-                href="https://drive.google.com/uc?export=download&id=12AFhPAB8sAsiJ1fICIxmxJ7kSoFc_ovX"
+                href="https://drive.google.com/uc?export=download&id=1jItGQpgCEzyNz534RzmRSjwx_8EroyDe"
               >
                 Descargar CV
               </Button>
