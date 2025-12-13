@@ -1,4 +1,5 @@
-import { Box, Container, Heading, Text, Stack, Image, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack, Flex } from "@chakra-ui/react";
+import Model from "../ui/about/AboutModel";
 
 export default function About() {
   return (
@@ -16,7 +17,11 @@ export default function About() {
         align="center"
         gap={12}
       >
-        <Stack flex="1" gap={6}>
+
+        <Stack
+          flex={{ base: 1, md: 2 }}
+          gap={6}
+        >
           <Flex direction="column" gap={3}>
             <Heading
               size={{ base: "2xl", md: "3xl" }}
@@ -51,16 +56,18 @@ export default function About() {
           </Stack>
         </Stack>
 
-        <Box flex="1" display="flex" justifyContent="center">
-          <Image
-            src="https://i.imgur.com/8c3NaCB.jpg"
-            alt="Gato programando brigido"
-            rounded="2xl"
-            shadow="lg"
-            objectFit="cover"
-            w={{ base: "100%", md: "420px" }}
-            h={{ base: "260px", md: "340px" }}
-          />
+
+        <Box
+          flex={{ base: 1, md: 1 }}
+          display="flex"
+          justifyContent="center"
+          w="100%"
+          maxW={{ md: "360px" }}
+          h={{ base: "300px", md: "340px" }}
+          rounded="2xl"
+          overflow="hidden"
+        >
+          <Model />
         </Box>
       </Flex>
     </Box>
