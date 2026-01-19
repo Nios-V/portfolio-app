@@ -26,7 +26,7 @@ const skills: Skill[] = [
         id: 'd4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a',
         name: 'Node.js',
         icon_url: 'https://images.icon-icons.com/2699/PNG/512/nodejs_logo_icon_169910.png',
-        experience_level: 'Intermedio',
+        experience_level: 'Avanzado',
         is_core: true
     },
     {
@@ -55,6 +55,27 @@ const skills: Skill[] = [
         name: 'Python',
         icon_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png',
         experience_level: 'Intermedio',
+        is_core: true
+    },
+    {
+        id: 'e5f06cd4-a1be-485d-97f0-2cdcf80662de',
+        name: 'Django',
+        icon_url: 'https://www.svgrepo.com/show/353657/django-icon.svg',
+        experience_level: 'Intermedio',
+        is_core: false
+    },
+    {
+        id: '5df2326f-8041-49ca-85be-31e007f670db',
+        name: 'Flask',
+        icon_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmD38KsMgEwahtWc_Nfs5ZVktP9dBc36MUZA&s',
+        experience_level: 'Intermedio',
+        is_core: false
+    },
+    {
+        id: 'a1d1c614-f11a-463e-914b-65443b5d1f4b',
+        name: 'FastAPI',
+        icon_url: 'https://cdn.worldvectorlogo.com/logos/fastapi.svg',
+        experience_level: 'Básico',
         is_core: false
     },
     {
@@ -62,7 +83,7 @@ const skills: Skill[] = [
         name: 'PostgreSQL',
         icon_url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg',
         experience_level: 'Intermedio',
-        is_core: false
+        is_core: true
     },
     {
         id: 'c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f',
@@ -89,8 +110,8 @@ const skills: Skill[] = [
         id: 'f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c',
         name: 'Next.js',
         icon_url: 'https://logo.svgcdn.com/devicon-plain/nextjs-plain.png',
-        experience_level: 'Avanzado',
-        is_core: true
+        experience_level: 'Intermedio',
+        is_core: false
     },
     {
         id: 'a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d',
@@ -118,6 +139,13 @@ const skills: Skill[] = [
         name: 'Spring Boot',
         icon_url: 'https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/spring-boot-logo-icon-hd.png',
         experience_level: 'Básico',
+        is_core: false
+    },
+    {
+        id: '029c02d3-160c-4a5c-bc2a-6420b57a7e8d',
+        name: 'Go',
+        icon_url: 'https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png',
+        experience_level: 'Intermedio',
         is_core: false
     }
 ];

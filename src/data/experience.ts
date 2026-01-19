@@ -56,6 +56,7 @@ const experiences: Experience[] = [
         "company_name": "Megamedia",
         "position": "Analista programador",
         "start_date": "2024-06-03",
+        "end_date": "2026-02-01",
         "order": 3,
         "goals": [
             {
@@ -77,7 +78,24 @@ const experiences: Experience[] = [
                 "order": 3
             }
         ]
-    }
+    },
+    {
+        "id": "0eb70b99-d243-4651-aa87-f8d96d27197a",
+        "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
+        "type": "Laboral",
+        "company_name": "Capitaria",
+        "position": "Desarrollador Full-Stack",
+        "start_date": "2026-02-01",
+        "order": 3,
+        "goals": [
+            {
+                "id": "70a07eef-33d1-4668-9913-d5d936e70d20",
+                "profile_id": "3b9e6193-6259-409c-82cc-157999e77a26",
+                "description": "Desarrollé y mantuve funcionalidades críticas del sistema de pagos, asegurando estabilidad, rendimiento y escalabilidad",
+                "order": 1
+            },
+        ]
+    },
 ];
 
 export default experiences;
